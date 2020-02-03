@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  connection: local
+
+  tasks:
+    - name: Update cron
+      cron: name="reboot" minute="30" hour="5" month=* weekday="1,4" job="sudo reboot"
