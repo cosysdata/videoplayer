@@ -5,7 +5,7 @@
 ## To enable add the following to /etc/rc.local
 ## sleep 10
 ## echo localhost > /etc/ansible/hosts
-## su - pi -c "git clone https://gist.github.com/54fd6918a00f22b849c2c5d695376ae6.git bin > /dev/null 2>&1 || echo Already Exists"
+## su - pi -c "git clone https://github.com/cosysdata/videoplayer.git bin > /dev/null 2>&1 || echo Already Exists"
 ## su - pi -c "cd /home/pi/bin ; git pull || echo Error checkout"
 ## su - pi -c "/bin/sh /home/pi/bin/distribute.sh &"
 ## su - pi -c "cd /home/pi/bin ; ansible-playbook playbook.yml"
