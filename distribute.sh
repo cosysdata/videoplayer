@@ -18,6 +18,6 @@ if ps ax | grep -v grep | grep $SERVICE > /dev/null
   then
     echo "running"  >> /dev/null
   else
-    omxplayer --no-keys --no-osd -b --loop --timeout 20 -o hdmi http://streaming.m4tv.at:1935/live/stream/playlist.m3u8 &
+    omxplayer --no-keys --no-osd -b --loop --timeout 20 -o hdmi http://streaming.m4tv.at:1935/live/m4tv.stream/playlist.m3u8 &
   fi
 done
